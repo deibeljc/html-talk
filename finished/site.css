@@ -1,0 +1,138 @@
+body {
+    background-color: #fff;
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+.container .wrapper {
+    display: block;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.container a {
+    color: #1ABD9A;
+    text-decoration: none;
+}
+
+.container a:hover {
+    color: #2cffca;
+    text-decoration: none;
+}
+
+.container .header {
+    display: block;
+    height: 200px;
+    background-color: #1ABD9A;
+}
+
+.container .header .logo-name {
+    display: inline-block;
+    color: #fff;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: left;
+    text-transform: uppercase;
+    padding: 90px 0 0 80px;
+}
+
+.container .header .navigation {
+    display: inline-block;
+    position: relative;
+    float: right;
+    margin: 0;
+    padding: 90px 80px 0 0;
+}
+
+.container .header .navigation li {
+    display: inline;
+    padding: 0 15px 0 0;
+    text-transform: uppercase;
+    list-style-type: none;
+}
+
+.container .header .navigation li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.container .header .navigation li a:hover {
+    color: #dbdbdb;
+}
+
+.container .content {
+    width: 100%;
+    padding-bottom: 70px;
+    background-color: #F1F3F4;
+    text-align: center;
+}
+
+.container .content .avatar {
+    display: block;
+    width: 150px;
+    heigth: 150px;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    margin: 0 auto;
+    padding: 40px 0 15px 0;
+}
+
+.container .content p {
+    display: block;
+    width: 600px;
+    margin: 0 auto 15px auto;
+    line-height: 25px;
+}
+
+.container .footer {
+    display: block;
+    position: relative;
+    float: left;
+    width: 100%;
+    padding-bottom: 80px;
+    background-color: #302D31;
+}
+
+.container .footer .footer-content {
+    display:inline-block;
+    float: left;
+    position: static;
+    width: 33%;
+    color: #fff;
+    height: 100%;
+    margin-top: 40px;
+}
+
+.container .footer .footer-content .footer-inner .footer-body {
+    min-height: 65px;
+}
+
+.container .footer .footer-content .footer-inner:first-of-type {
+    padding-left: 80px;
+}
+
+.container .footer .footer-content .footer-inner:last-of-type {
+    padding-right: 80px;
+}
+
+.container .footer .footer-content .footer-inner ul {
+    padding: 0;
+}
+
+.container .footer .footer-content .footer-inner h4 {
+    display: block;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.container .footer .footer-content .footer-inner li {
+    list-style-type: none;
+}
